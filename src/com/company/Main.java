@@ -20,7 +20,7 @@ public class Main {
 //        int result3Index = result.indexOf("=", result2Index + 1);            //Zostawiam ku pamięci, że się męczyłem :)
 //        result.replace("=","");
         System.out.println("Twój kod PIN znajdujący się w tekscie to: "
-                +result.substring(result.length()-5, result.length() - 1));
+                + result.substring(result.length() - 5, result.length() - 1));
 
 
     }
