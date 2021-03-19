@@ -10,7 +10,7 @@ public class Zad3 {
         String word = scanner.next();
 
         Pattern pattern = Pattern.compile("ab+");
-        if (pattern.matcher(word).find()){
+        if (pattern.matcher(word).find()) {
             System.out.println("sekwencja \"ab\" występuje w podanym wyrazie");
         } else {
             System.out.println("sekwencja \"ab\" nie występuje w podanym wyrazie");
